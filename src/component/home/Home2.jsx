@@ -9,7 +9,7 @@ const Home2 = () => {
   return (
     <section>
   <div className="container mx-auto mt-5 md:mt-10 backdrop-blur-md">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center" data-aos="fade-right">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center" data-aos="zoom-out">
       {/* Text Section */}
       <div className="px-5 md:px-10">
         <h1 className="text-xl md:text-3xl font-bold mb-4 text-slate-50 text-center md:text-start">
@@ -53,7 +53,7 @@ const Home2 = () => {
       </div>
 
       {/* Image Section */}
-      <div className="justify-self-center md:justify-self-end ms-12" data-aos="fade-left">
+      <div className="justify-self-center md:justify-self-end ms-12" data-aos="zoom-in">
         <img src={url} className="w-10/12 max-w-md aspect-auto rounded-md" alt="avatar" />
       </div>
     </div>
