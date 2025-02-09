@@ -2,11 +2,11 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <div className="bg-gray-900 text-white p-6 rounded-lg shadow-lg w-full md:w-3/4 mx-auto mt-10" data-aos="zoom-in">
+    <div className="bg-gray-900 text-white p-6 rounded-lg shadow-lg w-full md:w-3/4 mx-auto mt-10 mb-5 backdrop-blur-sm" data-aos="zoom-in" id='experience'>
       <h2 className="text-3xl font-bold mb-4 text-center">Professional Experience</h2>
       <div className="border-l-4 border-indigo-500 pl-4">
         <h3 className="text-xl font-semibold">Power Soft Global Solution</h3>
-        <p className="text-sm text-gray-400 italic mb-2">ReactJS Developer | September 2023- Present</p>
+        <p className="text-sm text-gray-400 italic mb-2">ReactJS Developer | July 2023- Present</p>
         <p className="text-lg">
           As a ReactJS Developer, I worked on building dynamic and user-friendly web applications. My primary responsibilities included:
         </p>
